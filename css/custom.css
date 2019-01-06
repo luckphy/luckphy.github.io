@@ -1,0 +1,211 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    color: #3a3a3a !important;
+    line-height: 1.6;
+}
+
+.article-content pre {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+}
+
+.article-content img {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-width: 100%;
+}
+
+.opening__image {
+    float: left;
+}
+
+.opening__image img {
+    width: 100%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.main__image {
+    max-width: 80%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.page-intro--blog-article {
+    margin-top: 0px;
+    padding-top: 100px;
+}
+
+.page-content--blog-article .opening__image {
+    max-width: 100%;
+}
+
+.article__item a {
+    color: black;
+}
+
+.article__item a:hover {
+    color: #f96315;
+}
+
+h3.article__titile {
+    color: black;
+}
+
+.engage table thead th {
+    border-bottom: 1px solid #e1d9d4;
+}
+
+.engage table thead th {
+    padding: 0.3em 0.5em;
+}
+
+#page-header iframe {
+    position: absolute;
+    margin-left: 15px;
+    top: 20px;
+}
+
+@media screen and (max-width: 989px) {
+    #page-header iframe {
+        top: 20px;
+    }
+}
+
+.engage p {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.engage table {
+    margin-top: 0;
+}
+
+#page-header {
+    background-color: white;
+    height: 72px;
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+    position: fixed;
+}
+
+.page-intro,
+.page-content--blog {
+    padding-top: 100px;
+}
+
+.page-logo {
+    padding-top: 0;
+}
+
+.page-nav__list {
+    padding: 17px 0 0;
+}
+
+ul.page-nav__list {
+    top: 40px;
+}
+
+#page-nav-button {
+    top: 12px;
+}
+
+.page-footer__wrapper:before {
+    width: 100%;
+}
+
+@media only screen and (min-width: 1169px) {
+    .container,
+    .container-full {
+        width: 80%;
+    }
+}
+
+.article-content a {
+    text-decoration: none;
+    color: #333333;
+    border-bottom: 2px solid #fac5a8;
+}
+
+.article-content p {
+    line-height: 1.6;
+}
+
+.article-content strong {
+    color: maroon;
+}
+
+table tbody td {
+    color: #3a3a3a;
+}
+
+.article__meta .share {
+    margin-top: 5px;
+}
+
+.share__item {
+    margin-right: 10px;
+}
+
+.page-intro__header {
+    border-bottom: 2px solid #e1d9d4;
+    padding-bottom: 10px;
+}
+
+.page-intro--blog-article {
+    margin-bottom: 20px;
+}
+
+.page-intro__title--blog {
+    font-size: 30x;
+}
+
+.engage {
+    font-size: 15px;
+}
+
+.engage table {
+    line-height: 0.7;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+/* make code oneliners bold */
+
+pre code {
+    font-weight: 400;
+}
+
+code {
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+
+/* override hljs background color which conflicts with our style */
+.hljs {
+    background-color: inherit;
+}
+
+.article-content figure {
+    max-width: 50%;
+    float: left;
+    margin-right: 20px;
+}
