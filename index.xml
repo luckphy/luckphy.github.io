@@ -65,5 +65,24 @@ Follow the following steps:
  Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
     </item>
     
+    <item>
+      <title>PRIVACY POLICY</title>
+      <link>//localhost:1313/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/privacy/</guid>
+      <description>THIS PAGE OUTLINES OUR PRIVACY POLICY. PLEASE READ THEM CAREFULLY BEFORE USING THIS SITE.
+Maintaining the privacy of our website visitors and mobile application users is very important to us. By using earnmoneyspeedy.com (further referred to as the “Site”), you explicitly accept, without limitation or qualification, our practices surrounding the collection, use, and sharing of personal information provided by you in the manner described on this Privacy Policy Page. If you do not agree with the terms on this Policy Page, please do not access, browse, or use this Site.</description>
+    </item>
+    
+    <item>
+      <title>TERMS OF SERVICE</title>
+      <link>//localhost:1313/terms-of-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/terms-of-service/</guid>
+      <description>Please read this Agreement carefully before accessing or using earnmoneyspeedy.com (further referred to as the “Site”). By accessing or using any part of the Site, you agree to become bound by the terms and conditions of this agreement. If you do not agree to all the terms and conditions of this agreement, then you may not access the Site or use any services. If these terms and conditions are considered an offer by the Site, acceptance is expressly limited to these terms.</description>
+    </item>
+    
   </channel>
 </rss>

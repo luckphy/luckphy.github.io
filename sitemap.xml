@@ -44,6 +44,13 @@
   </url>
   
   <url>
+    <loc>//localhost:1313/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <changefreq>weeky</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//localhost:1313/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weeky</changefreq>
@@ -51,8 +58,7 @@
   </url>
   
   <url>
-    <loc>//localhost:1313/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/series/doc/</loc>
     <changefreq>weeky</changefreq>
     <priority>0</priority>
   </url>
@@ -72,14 +78,14 @@
   </url>
   
   <url>
-    <loc>//localhost:1313/categories/golang/</loc>
+    <loc>//localhost:1313/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weeky</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//localhost:1313/tags/golang/</loc>
+    <loc>//localhost:1313/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weeky</changefreq>
     <priority>0</priority>
@@ -93,10 +99,28 @@
   </url>
   
   <url>
+    <loc>//localhost:1313/privacy/</loc>
+    <changefreq>weeky</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>//localhost:1313/posts/</loc>
     <lastmod>2019-01-05T00:00:00+00:00</lastmod>
     <changefreq>weeky</changefreq>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/series/</loc>
+    <changefreq>weeky</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/terms-of-service/</loc>
+    <changefreq>weeky</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
