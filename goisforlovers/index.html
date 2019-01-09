@@ -13,12 +13,12 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
     
-    <title>PRIVACY POLICY - Money This Way</title>
-    <meta property='og:title' content="PRIVACY POLICY - Money This Way">
+    <title>(Hu)go Template Primer - Money This Way</title>
+    <meta property='og:title' content="(Hu)go Template Primer - Money This Way">
     <meta property="og:type" content="article">
     
 
-    <meta property="og:url" content="https://www.earnmoneyspeedy.com/privacy/">
+    <meta property="og:url" content="https://www.earnmoneyspeedy.com/goisforlovers/">
     
     
 
@@ -29,9 +29,9 @@
       
     
 
-    <meta name="twitter:title" content="PRIVACY POLICY"/>
-    <meta name="twitter:description" content="THIS PAGE OUTLINES OUR PRIVACY POLICY. PLEASE READ THEM CAREFULLY BEFORE USING THIS SITE.
-Maintaining the privacy of our website visitors and mobile application users is very important to us. By using Moneythisway.com (further referred to as the “Site”), you explicitly accept, without limitation or qualification, our practices surrounding the collection, use, and sharing of personal information provided by you in the manner described on this Privacy Policy Page. If you do not agree with the terms on this Policy Page, please do not access, browse, or use this Site."/>
+    <meta name="twitter:title" content="(Hu)go Template Primer"/>
+    <meta name="twitter:description" content="Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
+This document is a brief primer on using go templates."/>
     <meta name="twitter:site" content="@moneythisway"/>
 
     
@@ -42,8 +42,8 @@ Maintaining the privacy of our website visitors and mobile application users is 
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/default.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
 
-    <link href="https://www.earnmoneyspeedy.com/css/runnable.css?2019-01-09%2018%3a21%3a32.8594099%20%2b0800%20CST%20m%3d%2b1.383675601" rel="stylesheet" />
-    <link href="https://www.earnmoneyspeedy.com/css/runnable-custom.css?2019-01-09%2018%3a21%3a32.8594099%20%2b0800%20CST%20m%3d%2b1.383675601" rel="stylesheet" />
+    <link href="https://www.earnmoneyspeedy.com/css/runnable.css?2019-01-09%2018%3a24%3a56.5217845%20%2b0800%20CST%20m%3d%2b205.046050201" rel="stylesheet" />
+    <link href="https://www.earnmoneyspeedy.com/css/runnable-custom.css?2019-01-09%2018%3a24%3a56.5227898%20%2b0800%20CST%20m%3d%2b205.047055501" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
@@ -58,8 +58,8 @@ Maintaining the privacy of our website visitors and mobile application users is 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/addon/edit/closebrackets.min.js" integrity="sha256-qhu2a7DSpQaammMaLw1iruxBpxmgdw8mdQaQWQUokcY=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/mode/javascript/javascript.min.js" integrity="sha256-7Bdg/UdDMmHDPafpQDYZNPCEbnRP7eAvu+2hEoqRCXs=" crossorigin="anonymous"></script>
     
-    <link rel="stylesheet" href="https://www.earnmoneyspeedy.com/css/styles.css?2019-01-09%2018%3a21%3a32.8594099%20%2b0800%20CST%20m%3d%2b1.383675601">
-    <link rel="stylesheet" href="https://www.earnmoneyspeedy.com/css/custom.css?2019-01-09%2018%3a21%3a32.8594099%20%2b0800%20CST%20m%3d%2b1.383675601">
+    <link rel="stylesheet" href="https://www.earnmoneyspeedy.com/css/styles.css?2019-01-09%2018%3a24%3a56.5227898%20%2b0800%20CST%20m%3d%2b205.047055501">
+    <link rel="stylesheet" href="https://www.earnmoneyspeedy.com/css/custom.css?2019-01-09%2018%3a24%3a56.5227898%20%2b0800%20CST%20m%3d%2b205.047055501">
   </head>
 
 
@@ -350,7 +350,24 @@ Maintaining the privacy of our website visitors and mobile application users is 
       <div class="row">
         <div class="col-12">
           <header class="page-intro__header">
-            <h1 class="page-intro__title page-intro__title--blog">PRIVACY POLICY</h1>
+            <div class="article__meta">
+              <span class="article__meta-item article__date">
+                
+                  Wed, Apr 2, 2014
+                 
+              </span>
+              <div class="share">
+                <ul class="share__list">
+                  
+                  <li class="share__item"><a href="https://twitter.com/share?text=%28Hu%29go%20Template%20Primer&amp;url=%2f%2flocalhost%3a1313%2fgoisforlovers%2f&amp;via=moneythisway" class="share__link">
+                      <svg class="icon share__icon share__icon--twitter">
+                        <use xlink:href="#icon-twitter" xmlns:xlink="https://www.w3.org/1999/xlink"></use>
+                      </svg></a></li>
+                  
+                </ul>
+              </div>
+            </div>
+            <h1 class="page-intro__title page-intro__title--blog">(Hu)go Template Primer</h1>
           </header>
         </div>
       </div>
@@ -361,56 +378,345 @@ Maintaining the privacy of our website visitors and mobile application users is 
     <div class="container">
       <div class="row">
         <div class="col-12">
-		
 
+          <img class="main__image" src="https://www.earnmoneyspeedy.com/images/default.jpg">
           <div class="article-content">
 
-<p>THIS PAGE OUTLINES OUR PRIVACY POLICY. PLEASE READ THEM CAREFULLY BEFORE USING THIS SITE.</p>
+<p>Hugo uses the excellent <a href="http://golang.org/&gt;">go</a> <a href="http://golang.org/pkg/html/template/&gt;">html/template</a> library for
+its template engine. It is an extremely lightweight engine that provides a very
+small amount of logic. In our experience that it is just the right amount of
+logic to be able to create a good static website. If you have used other
+template systems from different languages or frameworks you will find a lot of
+similarities in go templates.</p>
 
-<p>Maintaining the privacy of our website visitors and mobile application users is very important to us. By using Moneythisway.com (further referred to as the “Site”), you explicitly accept, without limitation or qualification, our practices surrounding the collection, use, and sharing of personal information provided by you in the manner described on this Privacy Policy Page. If you do not agree with the terms on this Policy Page, please do not access, browse, or use this Site.</p>
+<p>This document is a brief primer on using go templates. The <a href="http://golang.org/pkg/html/template/&gt;">go docs</a>
+provide more details.</p>
 
-<p>Please read this Privacy Policy carefully to understand our policies and practices regarding our treatment of your Personal Information.</p>
+<h2 id="introduction-to-go-templates">Introduction to Go Templates</h2>
 
-<h3 id="how-we-collect-your-personal-data">HOW WE COLLECT YOUR PERSONAL DATA</h3>
+<p>Go templates provide an extremely simple template language. It adheres to the
+belief that only the most basic of logic belongs in the template or view layer.
+One consequence of this simplicity is that go templates parse very quickly.</p>
 
-<p>The information we gather enables us to personalize, improve and continue to operate the Services. The term &ldquo;Service&rdquo; includes the websites Moneythisway.com and Moneythisway.com together with any related subsites, sub-domains, mobile and software applications, services, features and/or content associated therewith (collectively, &ldquo;our Websites&rdquo;). In connection with certain aspects of the Services, we may request, collect and/or display some of your Personal Information.</p>
+<p>A unique characteristic of go templates is they are content aware. Variables and
+content will be sanitized depending on the context of where they are used. More
+details can be found in the <a href="http://golang.org/pkg/html/template/&gt;">go docs</a>.</p>
 
-<p>We may collect data through the use of cookies and/or similar technologies. We may also collect your email address, but only if you voluntarily provide it to us. This may occur, for example, if you sign up to receive an email newsletter, or enter a promotion. We will use your email address for the purposes for which you provided it to us, and also from time to time to send you emails regarding the Site or other products or services that we believe may be of interest to you. You may opt out of such email communications at any time by clicking the “unsubscribe” button in the email. Your email address may also be shared with the technology provider we use in connection with the purposes for which you provided it, and that technology provider may also contact you from time to time.</p>
+<h2 id="basic-syntax">Basic Syntax</h2>
 
-<h3 id="use-of-cookies">USE OF COOKIES</h3>
+<p>Go lang templates are html files with the addition of variables and
+functions.</p>
 
-<p>We do use cookies to store information, such as your personal preferences when you visit our site. We also use third party advertisements on Moneythisway.com to support our site. Some of these advertisers may use technology such as cookies, DART cookies and web beacons when they advertise on our site, which will also send these advertisers (such as Google through the Google AdSense program) information including your IP address, your ISP , the browser you used to visit our site, and in some cases, whether you have Flash installed. The use of DART cookies enables advertisers such as Google Adsense to serve ads based on your visit and your visits to other sites on the Internet.  Users may opt out of the use of the DART cookie by visiting the <a href="https://www.google.com/policies/privacy/"> Google ad and content network privacy policy </a>.
-Users may opt out of the use of the DART cookie by visiting the Google ad and content network privacy policy.</p>
+<p><strong>Go variables and functions are accessible within {{ }}</strong></p>
 
-<p>We use Google Analytics to analyze the use of our website. Google Analytics gathers information about website use by means of cookies. The information gathered relating to our website is used to create reports about the use of our website.</p>
+<p>Accessing a predefined variable &ldquo;foo&rdquo;:</p>
 
-<p>Most browsers allow you to refuse to accept cookies and to delete cookies. The methods for doing so vary from browser to browser, and from version to version. Please consult your browser instructions for information about how to delete or block cookie usage. Please note that blocking cookies may have a negative impact on the functions of many websites, including our Site.</p>
+<pre><code>{{ foo }}
+</code></pre>
 
-<h3 id="advertising">ADVERTISING</h3>
+<p><strong>Parameters are separated using spaces</strong></p>
 
-<p>Ads appearing on any of the Site may be delivered to users by advertising partners, who may set cookies. These cookies allow the ad server to recognize your computer each time they send you an online advertisement to compile information about you or others who use your computer. This information allows ad networks to, among other things, deliver targeted advertisements that they believe will be of most interest to you. This Privacy Policy covers the use of cookies by Moneythisway.com and does not cover the use of cookies by any advertisers.</p>
+<p>Calling the add function with input of 1, 2:</p>
 
-<p>By using this Site, you consent to the use of such cookies and the sharing of data captured by such cookies with Google, and our other third party partners. You can view, delete or add interest categories associated with your browser by visiting: <a href="https://adssettings.google.com">https://adssettings.google.com</a>. You can also opt out of the network cookie using those settings or using the Network Advertising Initiative’s multi-cookie opt-out mechanism at: <a href="http://optout.networkadvertising.org">http://optout.networkadvertising.org</a>.</p>
+<pre><code>{{ add 1 2 }}
+</code></pre>
 
-<h3 id="european-economic-area-eea-residents">EUROPEAN ECONOMIC AREA (EEA) RESIDENTS</h3>
+<p><strong>Methods and fields are accessed via dot notation</strong></p>
 
-<p>If you reside in a country in the European Economic Area (EEA), then under the GDPR and applicable data protection laws you have the rights, among others, to:
-(i)  access your personal data
-(ii)  ensure the accuracy of your personal data
-(iii) the right to have us delete your personal data
-(iv)  the right to restrict further processing of your personal data, and
-(v)  the right to complain to a supervisory authority in your country of residence in the event that data is misused.
-You may exercise any of your rights in relation to your personal data by written notice to inform us to the following address: privacy@Moneythisway.com</p>
+<p>Accessing the Page Parameter &ldquo;bar&rdquo;</p>
 
-<h3 id="commitment-to-children-s-privacy">COMMITMENT TO CHILDREN’S PRIVACY</h3>
+<pre><code>{{ .Params.bar }}
+</code></pre>
 
-<p>Protecting the privacy of the very young is important to us. For that reason, we do not collect or maintain information at our sites from those we actually know are under 18, and no part of our site is structured to attract anyone under 18  in compliance with the requirements of COPPA (Children’s Online Privacy Protection Act).</p>
+<p><strong>Parentheses can be used to group items together</strong></p>
 
-<h3 id="future-changes-to-our-policy">FUTURE CHANGES TO OUR POLICY</h3>
+<pre><code>{{ if or (isset .Params &quot;alt&quot;) (isset .Params &quot;caption&quot;) }} Caption {{ end }}
+</code></pre>
 
-<p>We may revise and update our Policy Page if our practices change, as technology changes, or as we add new services or change existing ones. By continuing to use our Site or services after the Effective Date, you are deemed to consent to our then-current policies.</p>
+<h2 id="variables">Variables</h2>
 
-<p>Effective Date: Jan 6, 2019</p>
+<p>Each go template has a struct (object) made available to it. In hugo each
+template is passed either a page or a node struct depending on which type of
+page you are rendering. More details are available on the
+<a href="../layout/variables">variables</a> page.</p>
+
+<p>A variable is accessed by referencing the variable name.</p>
+
+<pre><code>&lt;title&gt;{{ .Title }}&lt;/title&gt;
+</code></pre>
+
+<p>Variables can also be defined and referenced.</p>
+
+<pre><code>{{ $address := &quot;123 Main St.&quot;}}
+{{ $address }}
+</code></pre>
+
+<h2 id="functions">Functions</h2>
+
+<p>Go template ship with a few functions which provide basic functionality. The go
+template system also provides a mechanism for applications to extend the
+available functions with their own. <a href="../layout/functions">Hugo template
+functions</a> provide some additional functionality we believe
+are useful for building websites. Functions are called by using their name
+followed by the required parameters separated by spaces. Template
+functions cannot be added without recompiling hugo.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>{{ add 1 2 }}
+</code></pre>
+
+<h2 id="includes">Includes</h2>
+
+<p>When including another template you will pass to it the data it will be
+able to access. To pass along the current context please remember to
+include a trailing dot. The templates location will always be starting at
+the /layout/ directory within Hugo.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>{{ template &quot;chrome/header.html&quot; . }}
+</code></pre>
+
+<h2 id="logic">Logic</h2>
+
+<p>Go templates provide the most basic iteration and conditional logic.</p>
+
+<h3 id="iteration">Iteration</h3>
+
+<p>Just like in go, the go templates make heavy use of range to iterate over
+a map, array or slice. The following are different examples of how to use
+range.</p>
+
+<p><strong>Example 1: Using Context</strong></p>
+
+<pre><code>{{ range array }} 
+    {{ . }}
+{{ end }}
+</code></pre>
+
+<p><strong>Example 2: Declaring value variable name</strong></p>
+
+<pre><code>{{range $element := array}} 
+    {{ $element }} 
+{{ end }}
+</code></pre>
+
+<p><strong>Example 2: Declaring key and value variable name</strong></p>
+
+<pre><code>{{range $index, $element := array}}
+    {{ $index }} 
+    {{ $element }} 
+{{ end }}
+</code></pre>
+
+<h3 id="conditionals">Conditionals</h3>
+
+<p>If, else, with, or, &amp; and provide the framework for handling conditional
+logic in Go Templates. Like range, each statement is closed with <code>end</code>.</p>
+
+<p>Go Templates treat the following values as false:</p>
+
+<ul>
+<li>false</li>
+<li>0</li>
+<li>any array, slice, map, or string of length zero</li>
+</ul>
+
+<p><strong>Example 1: If</strong></p>
+
+<pre><code>{{ if isset .Params &quot;title&quot; }}&lt;h4&gt;{{ index .Params &quot;title&quot; }}&lt;/h4&gt;{{ end }}
+</code></pre>
+
+<p><strong>Example 2: If -&gt; Else</strong></p>
+
+<pre><code>{{ if isset .Params &quot;alt&quot; }} 
+    {{ index .Params &quot;alt&quot; }}
+{{else}}
+    {{ index .Params &quot;caption&quot; }}
+{{ end }}
+</code></pre>
+
+<p><strong>Example 3: And &amp; Or</strong></p>
+
+<pre><code>{{ if and (or (isset .Params &quot;title&quot;) (isset .Params &quot;caption&quot;)) (isset .Params &quot;attr&quot;)}}
+</code></pre>
+
+<p><strong>Example 4: With</strong></p>
+
+<p>An alternative way of writing &ldquo;if&rdquo; and then referencing the same value
+is to use &ldquo;with&rdquo; instead. With rebinds the context <code>.</code> within its scope,
+and skips the block if the variable is absent.</p>
+
+<p>The first example above could be simplified as:</p>
+
+<pre><code>{{ with .Params.title }}&lt;h4&gt;{{ . }}&lt;/h4&gt;{{ end }}
+</code></pre>
+
+<p><strong>Example 5: If -&gt; Else If</strong></p>
+
+<pre><code>{{ if isset .Params &quot;alt&quot; }} 
+    {{ index .Params &quot;alt&quot; }}
+{{ else if isset .Params &quot;caption&quot; }}
+    {{ index .Params &quot;caption&quot; }}
+{{ end }}
+</code></pre>
+
+<h2 id="pipes">Pipes</h2>
+
+<p>One of the most powerful components of go templates is the ability to
+stack actions one after another. This is done by using pipes. Borrowed
+from unix pipes, the concept is simple, each pipeline&rsquo;s output becomes the
+input of the following pipe.</p>
+
+<p>Because of the very simple syntax of go templates, the pipe is essential
+to being able to chain together function calls. One limitation of the
+pipes is that they only can work with a single value and that value
+becomes the last parameter of the next pipeline.</p>
+
+<p>A few simple examples should help convey how to use the pipe.</p>
+
+<p><strong>Example 1 :</strong></p>
+
+<pre><code>{{ if eq 1 1 }} Same {{ end }}
+</code></pre>
+
+<p>is the same as</p>
+
+<pre><code>{{ eq 1 1 | if }} Same {{ end }}
+</code></pre>
+
+<p>It does look odd to place the if at the end, but it does provide a good
+illustration of how to use the pipes.</p>
+
+<p><strong>Example 2 :</strong></p>
+
+<pre><code>{{ index .Params &quot;disqus_url&quot; | html }}
+</code></pre>
+
+<p>Access the page parameter called &ldquo;disqus_url&rdquo; and escape the HTML.</p>
+
+<p><strong>Example 3 :</strong></p>
+
+<pre><code>{{ if or (or (isset .Params &quot;title&quot;) (isset .Params &quot;caption&quot;)) (isset .Params &quot;attr&quot;)}}
+Stuff Here
+{{ end }}
+</code></pre>
+
+<p>Could be rewritten as</p>
+
+<pre><code>{{  isset .Params &quot;caption&quot; | or isset .Params &quot;title&quot; | or isset .Params &quot;attr&quot; | if }}
+Stuff Here 
+{{ end }}
+</code></pre>
+
+<h2 id="context-aka-the-dot">Context (aka. the dot)</h2>
+
+<p>The most easily overlooked concept to understand about go templates is that {{ . }}
+always refers to the current context. In the top level of your template this
+will be the data set made available to it. Inside of a iteration it will have
+the value of the current item. When inside of a loop the context has changed. .
+will no longer refer to the data available to the entire page. If you need to
+access this from within the loop you will likely want to set it to a variable
+instead of depending on the context.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>  {{ $title := .Site.Title }}
+  {{ range .Params.tags }}
+    &lt;li&gt; &lt;a href=&quot;{{ $baseurl }}/tags/{{ . | urlize }}&quot;&gt;{{ . }}&lt;/a&gt; - {{ $title }} &lt;/li&gt;
+  {{ end }}
+</code></pre>
+
+<p>Notice how once we have entered the loop the value of {{ . }} has changed. We
+have defined a variable outside of the loop so we have access to it from within
+the loop.</p>
+
+<h1 id="hugo-parameters">Hugo Parameters</h1>
+
+<p>Hugo provides the option of passing values to the template language
+through the site configuration (for sitewide values), or through the meta
+data of each specific piece of content. You can define any values of any
+type (supported by your front matter/config format) and use them however
+you want to inside of your templates.</p>
+
+<h2 id="using-content-page-parameters">Using Content (page) Parameters</h2>
+
+<p>In each piece of content you can provide variables to be used by the
+templates. This happens in the <a href="../content/front-matter">front matter</a>.</p>
+
+<p>An example of this is used in this documentation site. Most of the pages
+benefit from having the table of contents provided. Sometimes the TOC just
+doesn&rsquo;t make a lot of sense. We&rsquo;ve defined a variable in our front matter
+of some pages to turn off the TOC from being displayed.</p>
+
+<p>Here is the example front matter:</p>
+
+<pre><code>---
+title: &quot;Permalinks&quot;
+date: &quot;2013-11-18&quot;
+aliases:
+  - &quot;/doc/permalinks/&quot;
+groups: [&quot;extras&quot;]
+groups_weight: 30
+notoc: true
+---
+</code></pre>
+
+<p>Here is the corresponding code inside of the template:</p>
+
+<pre><code>  {{ if not .Params.notoc }}
+    &lt;div id=&quot;toc&quot; class=&quot;well col-md-4 col-sm-6&quot;&gt;
+    {{ .TableOfContents }}
+    &lt;/div&gt;
+  {{ end }}
+</code></pre>
+
+<h2 id="using-site-config-parameters">Using Site (config) Parameters</h2>
+
+<p>In your top-level configuration file (eg, <code>config.yaml</code>) you can define site
+parameters, which are values which will be available to you in chrome.</p>
+
+<p>For instance, you might declare:</p>
+
+<pre><code class="language-yaml">params:
+  CopyrightHTML: &quot;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&quot;
+  TwitterUser: &quot;spf13&quot;
+  SidebarRecentLimit: 5
+</code></pre>
+
+<p>Within a footer layout, you might then declare a <code>&lt;footer&gt;</code> which is only
+provided if the <code>CopyrightHTML</code> parameter is provided, and if it is given,
+you would declare it to be HTML-safe, so that the HTML entity is not escaped
+again.  This would let you easily update just your top-level config file each
+January 1st, instead of hunting through your templates.</p>
+
+<pre><code>{{if .Site.Params.CopyrightHTML}}&lt;footer&gt;
+&lt;div class=&quot;text-center&quot;&gt;{{.Site.Params.CopyrightHTML | safeHtml}}&lt;/div&gt;
+&lt;/footer&gt;{{end}}
+</code></pre>
+
+<p>An alternative way of writing the &ldquo;if&rdquo; and then referencing the same value
+is to use &ldquo;with&rdquo; instead. With rebinds the context <code>.</code> within its scope,
+and skips the block if the variable is absent:</p>
+
+<pre><code>{{with .Site.Params.TwitterUser}}&lt;span class=&quot;twitter&quot;&gt;
+&lt;a href=&quot;https://twitter.com/{{.}}&quot; rel=&quot;author&quot;&gt;
+&lt;img src=&quot;/images/twitter.png&quot; width=&quot;48&quot; height=&quot;48&quot; title=&quot;Twitter: {{.}}&quot;
+ alt=&quot;Twitter&quot;&gt;&lt;/a&gt;
+&lt;/span&gt;{{end}}
+</code></pre>
+
+<p>Finally, if you want to pull &ldquo;magic constants&rdquo; out of your layouts, you can do
+so, such as in this example:</p>
+
+<pre><code>&lt;nav class=&quot;recent&quot;&gt;
+  &lt;h1&gt;Recent Posts&lt;/h1&gt;
+  &lt;ul&gt;{{range first .Site.Params.SidebarRecentLimit .Site.Recent}}
+    &lt;li&gt;&lt;a href=&quot;{{.RelPermalink}}&quot;&gt;{{.Title}}&lt;/a&gt;&lt;/li&gt;
+  {{end}}&lt;/ul&gt;
+&lt;/nav&gt;
+</code></pre>
 </div>
           <div class="modal fade" id="runnable-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <a href="#" data-dismiss="modal" class="modal-close-btn">
@@ -429,6 +735,36 @@ You may exercise any of your rights in relation to your personal data by written
       </div>
     </div>
 
+    <footer class="article-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+              <div class="article-author">
+  <figure class="article-author__figure">
+    
+
+
+
+  </figure>
+  <div class="article-author__bio">
+    <h4 class="article-author__name">
+
+
+
+      <span class="article-author__title">Author</span>
+    </h4>
+    
+
+
+
+  </div>
+</div>
+
+              
+              </div>
+            </div>
+          </div>
+    </footer>
 
     <div class="container">
       <div class="row">
@@ -442,7 +778,7 @@ You may exercise any of your rights in relation to your personal data by written
   
   <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-  
+
   <div class="page-footer__wrapper">
   <footer id="page-footer" class="page-footer">
     <div class="container">
@@ -498,7 +834,7 @@ You may exercise any of your rights in relation to your personal data by written
 </div>
 
     <script src="https://www.earnmoneyspeedy.com/js/clipboard.min.js"></script>
-    <script src="https://www.earnmoneyspeedy.com/js/runnable.js?2019-01-09%2018%3a21%3a32.8614105%20%2b0800%20CST%20m%3d%2b1.385676201"></script>
+    <script src="https://www.earnmoneyspeedy.com/js/runnable.js?2019-01-09%2018%3a24%3a56.5247873%20%2b0800%20CST%20m%3d%2b205.049053001"></script>
     <script>
     hljs.initHighlightingOnLoad();
 </script>
@@ -515,7 +851,6 @@ $(document.links)
 <script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10"></' + 'script>')</script></body>
 </html>
   
-  
 
   
 
@@ -523,5 +858,5 @@ $(document.links)
   <script type="text/javascript" src="../js/custom.js"></script>
   <script type="text/javascript" src="../js/script.min.js"></script>
 
-
+  
 </html>

@@ -13,12 +13,12 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
     
-    <title>PRIVACY POLICY - Money This Way</title>
-    <meta property='og:title' content="PRIVACY POLICY - Money This Way">
+    <title>Migrate to Hugo from Jekyll - Money This Way</title>
+    <meta property='og:title' content="Migrate to Hugo from Jekyll - Money This Way">
     <meta property="og:type" content="article">
     
 
-    <meta property="og:url" content="https://www.earnmoneyspeedy.com/privacy/">
+    <meta property="og:url" content="https://www.earnmoneyspeedy.com/migrate-from-jekyll/">
     
     
 
@@ -29,9 +29,10 @@
       
     
 
-    <meta name="twitter:title" content="PRIVACY POLICY"/>
-    <meta name="twitter:description" content="THIS PAGE OUTLINES OUR PRIVACY POLICY. PLEASE READ THEM CAREFULLY BEFORE USING THIS SITE.
-Maintaining the privacy of our website visitors and mobile application users is very important to us. By using Moneythisway.com (further referred to as the “Site”), you explicitly accept, without limitation or qualification, our practices surrounding the collection, use, and sharing of personal information provided by you in the manner described on this Privacy Policy Page. If you do not agree with the terms on this Policy Page, please do not access, browse, or use this Site."/>
+    <meta name="twitter:title" content="Migrate to Hugo from Jekyll"/>
+    <meta name="twitter:description" content="Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static."/>
     <meta name="twitter:site" content="@moneythisway"/>
 
     
@@ -42,8 +43,8 @@ Maintaining the privacy of our website visitors and mobile application users is 
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/default.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
 
-    <link href="https://www.earnmoneyspeedy.com/css/runnable.css?2019-01-09%2018%3a21%3a32.8594099%20%2b0800%20CST%20m%3d%2b1.383675601" rel="stylesheet" />
-    <link href="https://www.earnmoneyspeedy.com/css/runnable-custom.css?2019-01-09%2018%3a21%3a32.8594099%20%2b0800%20CST%20m%3d%2b1.383675601" rel="stylesheet" />
+    <link href="https://www.earnmoneyspeedy.com/css/runnable.css?2019-01-09%2018%3a29%3a53.4661021%20%2b0800%20CST%20m%3d%2b501.990367801" rel="stylesheet" />
+    <link href="https://www.earnmoneyspeedy.com/css/runnable-custom.css?2019-01-09%2018%3a29%3a53.4661021%20%2b0800%20CST%20m%3d%2b501.990367801" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
@@ -58,8 +59,8 @@ Maintaining the privacy of our website visitors and mobile application users is 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/addon/edit/closebrackets.min.js" integrity="sha256-qhu2a7DSpQaammMaLw1iruxBpxmgdw8mdQaQWQUokcY=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/mode/javascript/javascript.min.js" integrity="sha256-7Bdg/UdDMmHDPafpQDYZNPCEbnRP7eAvu+2hEoqRCXs=" crossorigin="anonymous"></script>
     
-    <link rel="stylesheet" href="https://www.earnmoneyspeedy.com/css/styles.css?2019-01-09%2018%3a21%3a32.8594099%20%2b0800%20CST%20m%3d%2b1.383675601">
-    <link rel="stylesheet" href="https://www.earnmoneyspeedy.com/css/custom.css?2019-01-09%2018%3a21%3a32.8594099%20%2b0800%20CST%20m%3d%2b1.383675601">
+    <link rel="stylesheet" href="https://www.earnmoneyspeedy.com/css/styles.css?2019-01-09%2018%3a29%3a53.4661021%20%2b0800%20CST%20m%3d%2b501.990367801">
+    <link rel="stylesheet" href="https://www.earnmoneyspeedy.com/css/custom.css?2019-01-09%2018%3a29%3a53.4661021%20%2b0800%20CST%20m%3d%2b501.990367801">
   </head>
 
 
@@ -350,7 +351,24 @@ Maintaining the privacy of our website visitors and mobile application users is 
       <div class="row">
         <div class="col-12">
           <header class="page-intro__header">
-            <h1 class="page-intro__title page-intro__title--blog">PRIVACY POLICY</h1>
+            <div class="article__meta">
+              <span class="article__meta-item article__date">
+                
+                  Mon, Mar 10, 2014
+                 
+              </span>
+              <div class="share">
+                <ul class="share__list">
+                  
+                  <li class="share__item"><a href="https://twitter.com/share?text=Migrate%20to%20Hugo%20from%20Jekyll&amp;url=%2f%2flocalhost%3a1313%2fmigrate-from-jekyll%2f&amp;via=moneythisway" class="share__link">
+                      <svg class="icon share__icon share__icon--twitter">
+                        <use xlink:href="#icon-twitter" xmlns:xlink="https://www.w3.org/1999/xlink"></use>
+                      </svg></a></li>
+                  
+                </ul>
+              </div>
+            </div>
+            <h1 class="page-intro__title page-intro__title--blog">Migrate to Hugo from Jekyll</h1>
           </header>
         </div>
       </div>
@@ -361,56 +379,176 @@ Maintaining the privacy of our website visitors and mobile application users is 
     <div class="container">
       <div class="row">
         <div class="col-12">
-		
 
+          <img class="main__image" src="https://www.earnmoneyspeedy.com/images/default.jpg">
           <div class="article-content">
 
-<p>THIS PAGE OUTLINES OUR PRIVACY POLICY. PLEASE READ THEM CAREFULLY BEFORE USING THIS SITE.</p>
+<h2 id="move-static-content-to-static">Move static content to <code>static</code></h2>
 
-<p>Maintaining the privacy of our website visitors and mobile application users is very important to us. By using Moneythisway.com (further referred to as the “Site”), you explicitly accept, without limitation or qualification, our practices surrounding the collection, use, and sharing of personal information provided by you in the manner described on this Privacy Policy Page. If you do not agree with the terms on this Policy Page, please do not access, browse, or use this Site.</p>
+<p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there.
+With Jekyll, something that looked like</p>
 
-<p>Please read this Privacy Policy carefully to understand our policies and practices regarding our treatment of your Personal Information.</p>
+<pre><code>▾ &lt;root&gt;/
+    ▾ images/
+        logo.png
+</code></pre>
 
-<h3 id="how-we-collect-your-personal-data">HOW WE COLLECT YOUR PERSONAL DATA</h3>
+<p>should become</p>
 
-<p>The information we gather enables us to personalize, improve and continue to operate the Services. The term &ldquo;Service&rdquo; includes the websites Moneythisway.com and Moneythisway.com together with any related subsites, sub-domains, mobile and software applications, services, features and/or content associated therewith (collectively, &ldquo;our Websites&rdquo;). In connection with certain aspects of the Services, we may request, collect and/or display some of your Personal Information.</p>
+<pre><code>▾ &lt;root&gt;/
+    ▾ static/
+        ▾ images/
+            logo.png
+</code></pre>
 
-<p>We may collect data through the use of cookies and/or similar technologies. We may also collect your email address, but only if you voluntarily provide it to us. This may occur, for example, if you sign up to receive an email newsletter, or enter a promotion. We will use your email address for the purposes for which you provided it to us, and also from time to time to send you emails regarding the Site or other products or services that we believe may be of interest to you. You may opt out of such email communications at any time by clicking the “unsubscribe” button in the email. Your email address may also be shared with the technology provider we use in connection with the purposes for which you provided it, and that technology provider may also contact you from time to time.</p>
+<p>Additionally, you&rsquo;ll want any files that should reside at the root (such as <code>CNAME</code>) to be moved to <code>static</code>.</p>
 
-<h3 id="use-of-cookies">USE OF COOKIES</h3>
+<h2 id="create-your-hugo-configuration-file">Create your Hugo configuration file</h2>
 
-<p>We do use cookies to store information, such as your personal preferences when you visit our site. We also use third party advertisements on Moneythisway.com to support our site. Some of these advertisers may use technology such as cookies, DART cookies and web beacons when they advertise on our site, which will also send these advertisers (such as Google through the Google AdSense program) information including your IP address, your ISP , the browser you used to visit our site, and in some cases, whether you have Flash installed. The use of DART cookies enables advertisers such as Google Adsense to serve ads based on your visit and your visits to other sites on the Internet.  Users may opt out of the use of the DART cookie by visiting the <a href="https://www.google.com/policies/privacy/"> Google ad and content network privacy policy </a>.
-Users may opt out of the use of the DART cookie by visiting the Google ad and content network privacy policy.</p>
+<p>Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the <a href="../overview/configuration/">Hugo configuration documentation</a> for details.</p>
 
-<p>We use Google Analytics to analyze the use of our website. Google Analytics gathers information about website use by means of cookies. The information gathered relating to our website is used to create reports about the use of our website.</p>
+<h2 id="set-your-configuration-publish-folder-to-site">Set your configuration publish folder to <code>_site</code></h2>
 
-<p>Most browsers allow you to refuse to accept cookies and to delete cookies. The methods for doing so vary from browser to browser, and from version to version. Please consult your browser instructions for information about how to delete or block cookie usage. Please note that blocking cookies may have a negative impact on the functions of many websites, including our Site.</p>
+<p>The default is for Jekyll to publish to <code>_site</code> and for Hugo to publish to <code>public</code>. If, like me, you have <a href="http://blog.blindgaenger.net/generate_github_pages_in_a_submodule.html"><code>_site</code> mapped to a git submodule on the <code>gh-pages</code> branch</a>, you&rsquo;ll want to do one of two alternatives:</p>
 
-<h3 id="advertising">ADVERTISING</h3>
+<ol>
+<li><p>Change your submodule to point to map <code>gh-pages</code> to public instead of <code>_site</code> (recommended).</p>
 
-<p>Ads appearing on any of the Site may be delivered to users by advertising partners, who may set cookies. These cookies allow the ad server to recognize your computer each time they send you an online advertisement to compile information about you or others who use your computer. This information allows ad networks to, among other things, deliver targeted advertisements that they believe will be of most interest to you. This Privacy Policy covers the use of cookies by Moneythisway.com and does not cover the use of cookies by any advertisers.</p>
+<pre><code>git submodule deinit _site
+git rm _site
+git submodule add -b gh-pages git@github.com:your-username/your-repo.git public
+</code></pre></li>
 
-<p>By using this Site, you consent to the use of such cookies and the sharing of data captured by such cookies with Google, and our other third party partners. You can view, delete or add interest categories associated with your browser by visiting: <a href="https://adssettings.google.com">https://adssettings.google.com</a>. You can also opt out of the network cookie using those settings or using the Network Advertising Initiative’s multi-cookie opt-out mechanism at: <a href="http://optout.networkadvertising.org">http://optout.networkadvertising.org</a>.</p>
+<li><p>Or, change the Hugo configuration to use <code>_site</code> instead of <code>public</code>.</p>
 
-<h3 id="european-economic-area-eea-residents">EUROPEAN ECONOMIC AREA (EEA) RESIDENTS</h3>
+<pre><code>{
+    ..
+    &quot;publishdir&quot;: &quot;_site&quot;,
+    ..
+}
+</code></pre></li>
+</ol>
 
-<p>If you reside in a country in the European Economic Area (EEA), then under the GDPR and applicable data protection laws you have the rights, among others, to:
-(i)  access your personal data
-(ii)  ensure the accuracy of your personal data
-(iii) the right to have us delete your personal data
-(iv)  the right to restrict further processing of your personal data, and
-(v)  the right to complain to a supervisory authority in your country of residence in the event that data is misused.
-You may exercise any of your rights in relation to your personal data by written notice to inform us to the following address: privacy@Moneythisway.com</p>
+<h2 id="convert-jekyll-templates-to-hugo-templates">Convert Jekyll templates to Hugo templates</h2>
 
-<h3 id="commitment-to-children-s-privacy">COMMITMENT TO CHILDREN’S PRIVACY</h3>
+<p>That&rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to <a href="http://jekyllrb.com/docs/templates/">Jekyll&rsquo;s template documentation</a> if you need to refresh your memory on how you built your blog and <a href="../layout/templates/">Hugo&rsquo;s template</a> to learn Hugo&rsquo;s way.</p>
 
-<p>Protecting the privacy of the very young is important to us. For that reason, we do not collect or maintain information at our sites from those we actually know are under 18, and no part of our site is structured to attract anyone under 18  in compliance with the requirements of COPPA (Children’s Online Privacy Protection Act).</p>
+<p>As a single reference data point, converting my templates for <a href="http://heyitsalex.net/">heyitsalex.net</a> took me no more than a few hours.</p>
 
-<h3 id="future-changes-to-our-policy">FUTURE CHANGES TO OUR POLICY</h3>
+<h2 id="convert-jekyll-plugins-to-hugo-shortcodes">Convert Jekyll plugins to Hugo shortcodes</h2>
 
-<p>We may revise and update our Policy Page if our practices change, as technology changes, or as we add new services or change existing ones. By continuing to use our Site or services after the Effective Date, you are deemed to consent to our then-current policies.</p>
+<p>Jekyll has <a href="http://jekyllrb.com/docs/plugins/">plugins</a>; Hugo has <a href="../doc/shortcodes/">shortcodes</a>. It&rsquo;s fairly trivial to do a port.</p>
 
-<p>Effective Date: Jan 6, 2019</p>
+<h3 id="implementation">Implementation</h3>
+
+<p>As an example, I was using a custom <a href="https://github.com/alexandre-normand/alexandre-normand/blob/74bb12036a71334fdb7dba84e073382fc06908ec/_plugins/image_tag.rb"><code>image_tag</code></a> plugin to generate figures with caption when running Jekyll. As I read about shortcodes, I found Hugo had a nice built-in shortcode that does exactly the same thing.</p>
+
+<p>Jekyll&rsquo;s plugin:</p>
+
+<pre><code>module Jekyll
+  class ImageTag &lt; Liquid::Tag
+    @url = nil
+    @caption = nil
+    @class = nil
+    @link = nil
+    // Patterns
+    IMAGE_URL_WITH_CLASS_AND_CAPTION =
+    IMAGE_URL_WITH_CLASS_AND_CAPTION_AND_LINK = /(\w+)(\s+)((https?:\/\/|\/)(\S+))(\s+)&quot;(.*?)&quot;(\s+)-&gt;((https?:\/\/|\/)(\S+))(\s*)/i
+    IMAGE_URL_WITH_CAPTION = /((https?:\/\/|\/)(\S+))(\s+)&quot;(.*?)&quot;/i
+    IMAGE_URL_WITH_CLASS = /(\w+)(\s+)((https?:\/\/|\/)(\S+))/i
+    IMAGE_URL = /((https?:\/\/|\/)(\S+))/i
+    def initialize(tag_name, markup, tokens)
+      super
+      if markup =~ IMAGE_URL_WITH_CLASS_AND_CAPTION_AND_LINK
+        @class   = $1
+        @url     = $3
+        @caption = $7
+        @link = $9
+      elsif markup =~ IMAGE_URL_WITH_CLASS_AND_CAPTION
+        @class   = $1
+        @url     = $3
+        @caption = $7
+      elsif markup =~ IMAGE_URL_WITH_CAPTION
+        @url     = $1
+        @caption = $5
+      elsif markup =~ IMAGE_URL_WITH_CLASS
+        @class = $1
+        @url   = $3
+      elsif markup =~ IMAGE_URL
+        @url = $1
+      end
+    end
+    def render(context)
+      if @class
+        source = &quot;&lt;figure class='#{@class}'&gt;&quot;
+      else
+        source = &quot;&lt;figure&gt;&quot;
+      end
+      if @link
+        source += &quot;&lt;a href=\&quot;#{@link}\&quot;&gt;&quot;
+      end
+      source += &quot;&lt;img src=\&quot;#{@url}\&quot;&gt;&quot;
+      if @link
+        source += &quot;&lt;/a&gt;&quot;
+      end
+      source += &quot;&lt;figcaption&gt;#{@caption}&lt;/figcaption&gt;&quot; if @caption
+      source += &quot;&lt;/figure&gt;&quot;
+      source
+    end
+  end
+end
+Liquid::Template.register_tag('image', Jekyll::ImageTag)
+</code></pre>
+
+<p>is written as this Hugo shortcode:</p>
+
+<pre><code>&lt;!-- image --&gt;
+&lt;figure {{ with .Get &quot;class&quot; }}class=&quot;{{.}}&quot;{{ end }}&gt;
+    {{ with .Get &quot;link&quot;}}&lt;a href=&quot;{{.}}&quot;&gt;{{ end }}
+        &lt;img src=&quot;{{ .Get &quot;src&quot; }}&quot; {{ if or (.Get &quot;alt&quot;) (.Get &quot;caption&quot;) }}alt=&quot;{{ with .Get &quot;alt&quot;}}{{.}}{{else}}{{ .Get &quot;caption&quot; }}{{ end }}&quot;{{ end }} /&gt;
+    {{ if .Get &quot;link&quot;}}&lt;/a&gt;{{ end }}
+    {{ if or (or (.Get &quot;title&quot;) (.Get &quot;caption&quot;)) (.Get &quot;attr&quot;)}}
+    &lt;figcaption&gt;{{ if isset .Params &quot;title&quot; }}
+        {{ .Get &quot;title&quot; }}{{ end }}
+        {{ if or (.Get &quot;caption&quot;) (.Get &quot;attr&quot;)}}&lt;p&gt;
+        {{ .Get &quot;caption&quot; }}
+        {{ with .Get &quot;attrlink&quot;}}&lt;a href=&quot;{{.}}&quot;&gt; {{ end }}
+            {{ .Get &quot;attr&quot; }}
+        {{ if .Get &quot;attrlink&quot;}}&lt;/a&gt; {{ end }}
+        &lt;/p&gt; {{ end }}
+    &lt;/figcaption&gt;
+    {{ end }}
+&lt;/figure&gt;
+&lt;!-- image --&gt;
+</code></pre>
+
+<h3 id="usage">Usage</h3>
+
+<p>I simply changed:</p>
+
+<pre><code>{% image full http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg &quot;One of my favorite touristy-type photos. I secretly waited for the good light while we were &quot;having fun&quot; and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing.&quot; -&gt;http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/ %}
+</code></pre>
+
+<p>to this (this example uses a slightly extended version named <code>fig</code>, different than the built-in <code>figure</code>):</p>
+
+<pre><code>{{% fig class=&quot;full&quot; src=&quot;http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg&quot; title=&quot;One of my favorite touristy-type photos. I secretly waited for the good light while we were having fun and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing.&quot; link=&quot;http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/&quot; %}}
+</code></pre>
+
+<p>As a bonus, the shortcode named parameters are, arguably, more readable.</p>
+
+<h2 id="finishing-touches">Finishing touches</h2>
+
+<h3 id="fix-content">Fix content</h3>
+
+<p>Depending on the amount of customization that was done with each post with Jekyll, this step will require more or less effort. There are no hard and fast rules here except that <code>hugo server --watch</code> is your friend. Test your changes and fix errors as needed.</p>
+
+<h3 id="clean-up">Clean up</h3>
+
+<p>You&rsquo;ll want to remove the Jekyll configuration at this point. If you have anything else that isn&rsquo;t used, delete it.</p>
+
+<h2 id="a-practical-example-in-a-diff">A practical example in a diff</h2>
+
+<p><a href="http://heyitsalex.net/">Hey, it&rsquo;s Alex</a> was migrated in less than a <em>father-with-kids day</em> from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this <a href="https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610">diff</a>.</p>
 </div>
           <div class="modal fade" id="runnable-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <a href="#" data-dismiss="modal" class="modal-close-btn">
@@ -429,6 +567,36 @@ You may exercise any of your rights in relation to your personal data by written
       </div>
     </div>
 
+    <footer class="article-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+              <div class="article-author">
+  <figure class="article-author__figure">
+    
+
+
+
+  </figure>
+  <div class="article-author__bio">
+    <h4 class="article-author__name">
+
+
+
+      <span class="article-author__title">Author</span>
+    </h4>
+    
+
+
+
+  </div>
+</div>
+
+              
+              </div>
+            </div>
+          </div>
+    </footer>
 
     <div class="container">
       <div class="row">
@@ -442,7 +610,7 @@ You may exercise any of your rights in relation to your personal data by written
   
   <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-  
+
   <div class="page-footer__wrapper">
   <footer id="page-footer" class="page-footer">
     <div class="container">
@@ -498,7 +666,7 @@ You may exercise any of your rights in relation to your personal data by written
 </div>
 
     <script src="https://www.earnmoneyspeedy.com/js/clipboard.min.js"></script>
-    <script src="https://www.earnmoneyspeedy.com/js/runnable.js?2019-01-09%2018%3a21%3a32.8614105%20%2b0800%20CST%20m%3d%2b1.385676201"></script>
+    <script src="https://www.earnmoneyspeedy.com/js/runnable.js?2019-01-09%2018%3a29%3a53.4753051%20%2b0800%20CST%20m%3d%2b501.999570801"></script>
     <script>
     hljs.initHighlightingOnLoad();
 </script>
@@ -515,7 +683,6 @@ $(document.links)
 <script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10"></' + 'script>')</script></body>
 </html>
   
-  
 
   
 
@@ -523,5 +690,5 @@ $(document.links)
   <script type="text/javascript" src="../js/custom.js"></script>
   <script type="text/javascript" src="../js/script.min.js"></script>
 
-
+  
 </html>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Earn Money Speedy</title>
+    <title>Money This Way</title>
     <link>//localhost:1313/</link>
-    <description>Recent content on Earn Money Speedy</description>
+    <description>Recent content on Money This Way</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Jan 2019 00:00:00 +0000</lastBuildDate>
@@ -23,10 +23,10 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>//localhost:1313/migrate-to-hugo-from-jekyll/</link>
+      <link>//localhost:1313/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/migrate-to-hugo-from-jekyll/</guid>
+      <guid>//localhost:1313/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
@@ -43,20 +43,20 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>//localhost:1313/hugo-template-primer/</link>
+      <link>//localhost:1313/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/hugo-template-primer/</guid>
+      <guid>//localhost:1313/goisforlovers/</guid>
       <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates.</description>
     </item>
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>//localhost:1313/getting-started-with-hugo/</link>
+      <link>//localhost:1313/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/getting-started-with-hugo/</guid>
+      <guid>//localhost:1313/hugoisforlovers/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo
@@ -72,7 +72,7 @@ Follow the following steps:
       
       <guid>//localhost:1313/privacy/</guid>
       <description>THIS PAGE OUTLINES OUR PRIVACY POLICY. PLEASE READ THEM CAREFULLY BEFORE USING THIS SITE.
-Maintaining the privacy of our website visitors and mobile application users is very important to us. By using earnmoneyspeedy.com (further referred to as the “Site”), you explicitly accept, without limitation or qualification, our practices surrounding the collection, use, and sharing of personal information provided by you in the manner described on this Privacy Policy Page. If you do not agree with the terms on this Policy Page, please do not access, browse, or use this Site.</description>
+Maintaining the privacy of our website visitors and mobile application users is very important to us. By using Moneythisway.com (further referred to as the “Site”), you explicitly accept, without limitation or qualification, our practices surrounding the collection, use, and sharing of personal information provided by you in the manner described on this Privacy Policy Page. If you do not agree with the terms on this Policy Page, please do not access, browse, or use this Site.</description>
     </item>
     
     <item>
@@ -81,7 +81,7 @@ Maintaining the privacy of our website visitors and mobile application users is 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/terms-of-service/</guid>
-      <description>Please read this Agreement carefully before accessing or using earnmoneyspeedy.com (further referred to as the “Site”). By accessing or using any part of the Site, you agree to become bound by the terms and conditions of this agreement. If you do not agree to all the terms and conditions of this agreement, then you may not access the Site or use any services. If these terms and conditions are considered an offer by the Site, acceptance is expressly limited to these terms.</description>
+      <description>Please read this Agreement carefully before accessing or using Moneythisway.com (further referred to as the “Site”). By accessing or using any part of the Site, you agree to become bound by the terms and conditions of this agreement. If you do not agree to all the terms and conditions of this agreement, then you may not access the Site or use any services. If these terms and conditions are considered an offer by the Site, acceptance is expressly limited to these terms.</description>
     </item>
     
   </channel>
