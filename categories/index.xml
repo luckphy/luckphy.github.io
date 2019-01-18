@@ -1,31 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Money This Way</title>
+    <title>Money this way</title>
     <link>//localhost:1313/categories/</link>
-    <description>Recent content in Categories on Money This Way</description>
+    <description>Recent content on Money this way</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Development</title>
-      <link>//localhost:1313/categories/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Fancy App 1</title>
+      <link>//localhost:1313/itemized/item1/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/categories/development/</guid>
-      <description></description>
+      <guid>//localhost:1313/itemized/item1/</guid>
+      <description> App 1 </description>
     </item>
     
     <item>
-      <title>Golang</title>
-      <link>//localhost:1313/categories/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Fancy App 2</title>
+      <link>//localhost:1313/itemized/item2/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/categories/golang/</guid>
-      <description></description>
+      <guid>//localhost:1313/itemized/item2/</guid>
+      <description> App 2 </description>
+    </item>
+    
+    <item>
+      <title>Fancy App 3</title>
+      <link>//localhost:1313/itemized/item3/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/itemized/item3/</guid>
+      <description> App 3 </description>
+    </item>
+    
+    <item>
+      <title>Fancy App 4</title>
+      <link>//localhost:1313/itemized/item4/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/itemized/item4/</guid>
+      <description> App 4 </description>
     </item>
     
   </channel>
