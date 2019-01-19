@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TERMS OF USE on Money this way</title>
-    <link>//localhost:1313/terms-of-use/</link>
+    <link>https://www.moneythisway.com/terms-of-use/</link>
     <description>Recent content in TERMS OF USE on Money this way</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="//localhost:1313/terms-of-use/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.moneythisway.com/terms-of-use/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

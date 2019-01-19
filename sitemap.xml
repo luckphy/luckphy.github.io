@@ -3,117 +3,117 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>//localhost:1313/itemized/item1/</loc>
+    <loc>https://www.moneythisway.com/itemized/item1/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/itemized/item2/</loc>
+    <loc>https://www.moneythisway.com/itemized/item2/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/itemized/item3/</loc>
+    <loc>https://www.moneythisway.com/itemized/item3/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/itemized/item4/</loc>
+    <loc>https://www.moneythisway.com/itemized/item4/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/creating-a-new-theme/</loc>
+    <loc>https://www.moneythisway.com/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>https://www.moneythisway.com/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/goisforlovers/</loc>
+    <loc>https://www.moneythisway.com/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/hugoisforlovers/</loc>
+    <loc>https://www.moneythisway.com/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/migrate-from-jekyll/</loc>
+    <loc>https://www.moneythisway.com/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>https://www.moneythisway.com/categories/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//localhost:1313/blog/</loc>
+    <loc>https://www.moneythisway.com/blog/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>https://www.moneythisway.com/categories/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//localhost:1313/contact/</loc>
+    <loc>https://www.moneythisway.com/contact/</loc>
   </url>
   
   <url>
-    <loc>//localhost:1313/categories/go/</loc>
+    <loc>https://www.moneythisway.com/categories/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//localhost:1313/categories/hugo/</loc>
+    <loc>https://www.moneythisway.com/categories/hugo/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//localhost:1313/itemized/</loc>
+    <loc>https://www.moneythisway.com/itemized/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//localhost:1313/categories/jekyll/</loc>
+    <loc>https://www.moneythisway.com/categories/jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>https://www.moneythisway.com/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//localhost:1313/privacy/</loc>
+    <loc>https://www.moneythisway.com/privacy/</loc>
   </url>
   
   <url>
-    <loc>//localhost:1313/terms-of-use/</loc>
+    <loc>https://www.moneythisway.com/terms-of-use/</loc>
   </url>
   
   <url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>https://www.moneythisway.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//localhost:1313/tags/tutorial/</loc>
+    <loc>https://www.moneythisway.com/tags/tutorial/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
