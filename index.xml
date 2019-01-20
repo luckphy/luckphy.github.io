@@ -62,7 +62,7 @@
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://www.moneythisway.com/goisforlovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic.</description>
+      <description>Hugo uses the excellent search html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic.</description>
     </item>
     
     <item>

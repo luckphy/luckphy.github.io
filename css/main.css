@@ -56,12 +56,12 @@
 
 	header p {
 		font-family: "Raleway", Helvetica, sans-serif;
-		font-size: 0.7em;
+		font-size: 0.9em;
 		font-weight: 400;
 		letter-spacing: 0.25em;
 		line-height: 2.5;
 		margin: -1em 1em 0;
-		text-transform: uppercase;
+		text-transform: capitalize;
 	}
 
 	table {
@@ -200,7 +200,7 @@
 		letter-spacing: 0.25em;
 		line-height: 1.65;
 		margin: 0 0 1em 0;
-		text-transform: uppercase;
+		text-transform: capitalize;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -209,27 +209,33 @@
 		}
 
     h1 {
-        font-size: 1.3em;
+        font-size: 1.5em;
+		letter-spacing:1px;
     }
 
 	h2 {
-		font-size: 1.1em;
+		font-size: 1.3em;
+		letter-spacing:1px;
 	}
 
 	h3 {
-		font-size: 0.9em;
+		font-size: 1.2em;
+		letter-spacing:1px;
 	}
 
 	h4 {
 		font-size: 0.7em;
+		letter-spacing:1px;
 	}
 
 	h5 {
 		font-size: 0.7em;
+		letter-spacing:1px;
 	}
 
 	h6 {
 		font-size: 0.7em;
+		letter-spacing:1px;
 	}
 
 	sub {
@@ -324,10 +330,10 @@
 		justify-content: flex-end;
 		border-bottom: 0;
 		font-family: "Raleway", Helvetica, sans-serif;
-		font-size: 0.6em;
+		font-size: 0.9em;
 		font-weight: 400;
 		letter-spacing: 0.25em;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		white-space: nowrap;
 	}
 
@@ -399,7 +405,7 @@
 		padding: 0 2.5em;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		white-space: nowrap;
 	}
 
@@ -925,6 +931,7 @@
 	        white-space: normal;
 	        padding-top: 1em;
 	        padding-bottom: 1em;
+			letter-spacing:1px;
 			}
 
 			ul.actions.pagination .next {
@@ -1099,7 +1106,7 @@
 			}
 				ul.posts article .image {
 					display: block;
-					margin-right: 1.5em;
+					margin-right: 0.9em;
 					min-width: 5em;
 					min-height: 5em;
 					width: 5em;
@@ -1135,7 +1142,7 @@
 						font-weight: 400;
 						letter-spacing: 0.25em;
 						margin: -0.625em 0 1.7em 0;
-						text-transform: uppercase;
+						text-transform: capitalize;
 					}
 
 					ul.posts article header > :last-child {
@@ -1207,7 +1214,7 @@
 		}
 
 			.mini-post header h3 {
-				font-size: 0.7em;
+				font-size: 0.9em;
 			}
 
 			.mini-post header .published {
@@ -1217,7 +1224,7 @@
 				font-weight: 400;
 				letter-spacing: 0.25em;
 				margin: -0.625em 0 1.7em 0;
-				text-transform: uppercase;
+				text-transform: capitalize;
 			}
 
 			.mini-post header .author, .mini-post header .format {
@@ -1232,7 +1239,7 @@
 				font-weight: 400;
 				letter-spacing: 0.25em;
 				margin: -0.625em 0 0.6em 0;
-				text-transform: uppercase;
+				text-transform: capitalize;
 				color: #6699cc;
 			}
 	.mini-posts {
@@ -1346,11 +1353,11 @@
 					color: #3c3b3b;
 					display: block;
 					font-family: "Raleway", Helvetica, sans-serif;
-					font-size: 0.7em;
+					font-size: 0.9em;
 					font-weight: 800;
 					letter-spacing: 0.25em;
 					margin-top: 0.5em;
-					text-transform: uppercase;
+					text-transform: capitalize;
 					white-space: nowrap;
 				}
 
@@ -1430,7 +1437,7 @@
 					line-height: 1;
 					margin: 0 0 0 1em;
 					padding: 0 0 0 1em;
-					text-transform: uppercase;
+					text-transform: capitalize;
 				}
 
 					.post > footer .stats li ul li:first-child {
@@ -1676,7 +1683,7 @@
 						font-weight: 800;
 						letter-spacing: 0.25em;
 						margin-top: 0.5em;
-						text-transform: uppercase;
+						text-transform: capitalize;
 						white-space: nowrap;
 					}
 
@@ -1732,7 +1739,7 @@
 						line-height: 1;
 						margin: 0 0 0 2em;
 						padding: 0 0 0 2em;
-						text-transform: uppercase;
+						text-transform: capitalize;
 					}
 
 						.itemized > footer .stats li:first-child {
@@ -2308,7 +2315,7 @@
 					font-size: 0.7em;
 					font-weight: 400;
 					letter-spacing: 0.25em;
-					text-transform: uppercase;
+					text-transform: capitalize;
 				}
 
 		#header .main {
@@ -2677,17 +2684,17 @@
 		color: #aaaaaa;
 		text-align: center;
 		margin-top: 0;
-		padding-top: 0
+		padding-bottom: 1em;
 	}
 
 	#footer .copyright {
 		text-align: center;
 		color: #aaaaaa;
 		font-family: "Raleway", Helvetica, sans-serif;
-		font-size: 0.5em;
+		font-size: 0.69em;
 		font-weight: 400;
 		letter-spacing: 0.25em;
-		text-transform: uppercase;
+		text-transform: capitalize;
 	}
 
 /* Back To Top */
@@ -2780,7 +2787,7 @@
 						letter-spacing: 0.25em;
 						margin-bottom: 0;
 						text-decoration: none;
-						text-transform: uppercase;
+						text-transform: capitalize;
 					}
 
 					#menu .links > li a:hover h3 {
@@ -2833,7 +2840,7 @@
 
 	  #social-share .share-btn {
 	    padding: 0.5em;
-	    width: 4em;
+	    width: 3em;
 	  }
 
 	    #social-share-nav .share-btn h3{
@@ -2964,7 +2971,7 @@
 							letter-spacing: 0.25em;
 							margin-bottom: 0;
 							text-decoration: none;
-							text-transform: uppercase;
+							text-transform: capitalize;
 						}
 
 						#share-menu .links > li a:hover h3 {
@@ -3070,9 +3077,16 @@
 .col-xs-3 {
   width: 25%;
 }
+
 .col-xs-2 {
   width: 16.66666667%;
 }
+
+
+
+
+
+
 .col-xs-1 {
   width: 8.33333333%;
 }
@@ -3081,16 +3095,18 @@
 		width: 100%;
 		}
 }
-
 .summary {
 margin-bottom:1em;
+
+
+
 line-height:150%;
-			
+
+font-size:79%			
 }
 .category-head{
 
-padding-left:0;
-	
+padding-left:0;	
 }
 .logoimg{
 vertical-align:middle;	
@@ -3105,15 +3121,19 @@ margin-top:-0.5em;
   padding-right: 0;
 }			
 
-
  header .categoried {
 				display: block;
 				font-family: "Raleway", Helvetica, sans-serif;
 				font-size: 0.6em;
-				font-weight: 400;
-				
+				font-weight: 400;				
 				letter-spacing: 0.25em;
 				margin: 0.09em 0 0.6em 0;
-				text-transform: uppercase;
+				text-transform: capitalize;
 				color: #6699cc;
 			}
+.mini-post{
+	font-size:125%
+}
+ul.posts {
+	font-size:125%
+		}
