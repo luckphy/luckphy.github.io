@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://moneythisway.netlify.com/* http://www.moneythisway.com/:splat 301!
