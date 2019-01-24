@@ -155,8 +155,6 @@ With Jekyll, something that looked like
 
       
 	 
-	 <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101163898);</script>
-      <script async src="//static.getclicky.com/js"></script>
     </head>
 	
     <body>
@@ -164,9 +162,7 @@ With Jekyll, something that looked like
       
 
       <div id="wrapper">
-
-	  
-	  
+ 
     
     
 <header id="header">
@@ -423,7 +419,7 @@ With Jekyll, something that looked like
         
 
         <a href="https://www.moneythisway.com/hugoisforlovers/" class="image featured">
-            <img src="https://www.moneythisway.com/img/2014/042014/04/pic01.jpg" alt="">
+            <img src="https://www.moneythisway.com/img/2014/04/pic01.jpg" alt="">
         </a>
     
 
@@ -472,6 +468,13 @@ With Jekyll, something that looked like
 
 
 
+<li>
+  <a href="//plus.google.com/share?url=https%3a%2f%2fwww.moneythisway.com%2fmigrate-from-jekyll%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
 
 
 
@@ -511,13 +514,6 @@ With Jekyll, something that looked like
 
 
 
-
-<li>
-  <a href="mailto:?subject=Check out this post by Migrating%20author&amp;body=https%3a%2f%2fwww.moneythisway.com%2fmigrate-from-jekyll%2f" target="_blank" class="share-btn email">
-    <i class="fa fa-envelope"></i>
-    <p>Email</p>
-  </a>
-</li>
 
 
         </ul>
@@ -569,6 +565,13 @@ With Jekyll, something that looked like
 
 
 
+<li>
+  <a href="//plus.google.com/share?url=https%3a%2f%2fwww.moneythisway.com%2fmigrate-from-jekyll%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
 
 
 
@@ -609,13 +612,6 @@ With Jekyll, something that looked like
 
 
 
-<li>
-  <a href="mailto:?subject=Check out this post by Migrating%20author&amp;body=https%3a%2f%2fwww.moneythisway.com%2fmigrate-from-jekyll%2f" target="_blank" class="share-btn email">
-    <i class="fa fa-envelope"></i>
-    <p>Email</p>
-  </a>
-</li>
-
 
       </ul>
     </section>
@@ -650,7 +646,7 @@ With Jekyll, something that looked like</p>
 
 <h2 id="set-your-configuration-publish-folder-to-site">Set your configuration publish folder to <code>_site</code></h2>
 
-<p>The default is for Jekyll to publish to <code>_site</code> and for Hugo to publish to <code>public</code>. If, like me, you have <a href="http://blog.blindgaenger.net/generate_github_pages_in_a_submodule.html"><code>_site</code> mapped to a git submodule on the <code>gh-pages</code> branch</a>, you&rsquo;ll want to do one of two alternatives:</p>
+<p>The default is for Jekyll to publish to <code>_site</code> and for Hugo to publish to <code>public</code>. If, like me, you have <a href="http://blog.blindgaenger.net/generate_github_pages_in_a_submodule.html" rel="nofollow" target="_blank"><code>_site</code> mapped to a git submodule on the <code>gh-pages</code> branch</a>, you&rsquo;ll want to do one of two alternatives:</p>
 
 <ol>
 <li><p>Change your submodule to point to map <code>gh-pages</code> to public instead of <code>_site</code> (recommended).</p>
@@ -673,17 +669,17 @@ git submodule add -b gh-pages
 
 <h2 id="convert-jekyll-templates-to-hugo-templates">Convert Jekyll templates to Hugo templates</h2>
 
-<p>That&rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to <a href="http://jekyllrb.com/docs/templates/">Jekyll&rsquo;s template documentation</a> if you need to refresh your memory on how you built your blog and <a href="https://www.moneythisway.com/layout/templates/">Hugo&rsquo;s template</a> to learn Hugo&rsquo;s way.</p>
+<p>That&rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to <a href="http://jekyllrb.com/docs/templates/" rel="nofollow" target="_blank">Jekyll&rsquo;s template documentation</a> if you need to refresh your memory on how you built your blog and <a href="https://www.moneythisway.com/layout/templates/">Hugo&rsquo;s template</a> to learn Hugo&rsquo;s way.</p>
 
-<p>As a single reference data point, converting my templates for <a href="http://heyitsalex.net/">heyitsalex.net</a> took me no more than a few hours.</p>
+<p>As a single reference data point, converting my templates for <a href="http://heyitsalex.net/" rel="nofollow" target="_blank">heyitsalex.net</a> took me no more than a few hours.</p>
 
 <h2 id="convert-jekyll-plugins-to-hugo-shortcodes">Convert Jekyll plugins to Hugo shortcodes</h2>
 
-<p>Jekyll has <a href="http://jekyllrb.com/docs/plugins/">plugins</a>; Hugo has <a href="https://www.moneythisway.com/doc/shortcodes/">shortcodes</a>. It&rsquo;s fairly trivial to do a port.</p>
+<p>Jekyll has <a href="http://jekyllrb.com/docs/plugins/" rel="nofollow" target="_blank">plugins</a>; Hugo has <a href="https://www.moneythisway.com/doc/shortcodes/">shortcodes</a>. It&rsquo;s fairly trivial to do a port.</p>
 
 <h3 id="implementation">Implementation</h3>
 
-<p>As an example, I was using a custom <a href="https://github.com/alexandre-normand/alexandre-normand/blob/74bb12036a71334fdb7dba84e073382fc06908ec/_plugins/image_tag.rb"><code>image_tag</code></a> plugin to generate figures with caption when running Jekyll. As I read about shortcodes, I found Hugo had a nice built-in shortcode that does exactly the same thing.</p>
+<p>As an example, I was using a custom <a href="https://github.com/alexandre-normand/alexandre-normand/blob/74bb12036a71334fdb7dba84e073382fc06908ec/_plugins/image_tag.rb" rel="nofollow" target="_blank"><code>image_tag</code></a> plugin to generate figures with caption when running Jekyll. As I read about shortcodes, I found Hugo had a nice built-in shortcode that does exactly the same thing.</p>
 
 <p>Jekyll&rsquo;s plugin:</p>
 
@@ -813,7 +809,7 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 
 <h2 id="a-practical-example-in-a-diff">A practical example in a diff</h2>
 
-<p><a href="http://heyitsalex.net/">Hey, it&rsquo;s Alex</a> was migrated in less than a <em>father-with-kids day</em> from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this <a href="https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610">diff</a>.</p>
+<p><a href="http://heyitsalex.net/" rel="nofollow" target="_blank">Hey, it&rsquo;s Alex</a> was migrated in less than a <em>father-with-kids day</em> from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this <a href="https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610" rel="nofollow" target="_blank">diff</a>.</p>
   </div>
 
   <footer>
@@ -959,13 +955,10 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 	<a href="https://www.moneythisway.com/sitemap.xml" target="_blank">Sitemap</a>
 	</p>
     <p class="copyright">
-      
-        &copy; 2017
-        
-          Money this way
-        
-      .
-      ALL RIGHT RESERVED
+
+      &copy; 2017 MoneyThisWay
+      </p><p class="copyright">All Right Reserved
+	  </p>
   </section>
  </div>
     </div>
@@ -1010,7 +1003,8 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 
     
     <script>hljs.initHighlightingOnLoad();</script>
-      <script>
+      
+	  <script>
 (function() {
   var i, text, code, codes = document.getElementsByTagName('code');
   for (i = 0; i < codes.length;) {
@@ -1033,10 +1027,20 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 })();
 </script>
 <script async
+
 src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
-
-
-  <script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10"></' + 'script>')</script></body>
+<script type="text/javascript">
+var sc_project=11933622; 
+var sc_invisible=1; 
+var sc_security="ad4c883b"; 
+var sc_https=1; 
+var sc_remove_link=1; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js" async></script>
+<noscript><div class="statcounter"><img class="statcounter"
+src="https://c.statcounter.com/11933622/0/ad4c883b/1/" alt="Web
+Analytics"></div></noscript>
+  </body>
 </html>
-
