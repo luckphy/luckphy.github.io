@@ -37,7 +37,7 @@
       <guid>https://www.moneythisway.com/hugoisforlovers/</guid>
       <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
 
-&lt;p&gt;Go to &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34; rel=&#34;nofollow&#34;&gt;hugo releases&lt;/a&gt; and download the
+&lt;p&gt;Go to &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;hugo releases&lt;/a&gt; and download the
 appropriate version for your os and architecture.&lt;/p&gt;
 
 &lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
