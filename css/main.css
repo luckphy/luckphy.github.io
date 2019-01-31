@@ -1366,11 +1366,11 @@
     }
     #content p a,
 		#content ul li a {
-        border-bottom: solid 2px #d21229;
 		color: #d21229;
 		font-weight:bold;
     }
-        #content p a:hover {
+        #content p a:hover 
+		border-bottom: solid 2px #d21229;
             border-bottom-color: transparent;
         }
 
